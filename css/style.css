@@ -1,0 +1,135 @@
+/* common */
+
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.btn {
+  display: block;
+  width: 160px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.container {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  min-width: 800px;
+}
+
+/* header */
+
+header {
+  padding: 16px 0;
+}
+
+header .conainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+/* hero */
+
+.hero {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  padding-top: 64px;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+
+.hero h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 8px;
+  color: #fff;
+}
+
+
+
+/* call to action */
+
+.call-to-action {
+  padding: 64px 0;
+  background-color: #00aeff;
+}
+
+.call-to-action h1 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.call-to-action .btn {
+  margin: 0 auto;
+  animation: btn 2s infinite;
+}
+@keyframes  btn {
+  0% {
+        transform: translate(2px, 0px);
+    }
+    5% {
+        transform: translate(-2px, 0px);
+    }
+    10% {
+        transform: translate(2px, 0px);
+    }
+    15% {
+        transform: translate(-2px, 0px);
+    }
+    20% {
+        transform: translate(2px, 0px);
+    }
+    25% {
+        transform: translate(-2px, 0px);
+    }
+    30% {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* copyright */
+
+.copyright {
+  background: #323435;
+  padding: 64px 0;
+  text-align: center;
+}
+
+.copyright small {
+  font-size: 16px;
+  color: #eee;
+}
